@@ -10,8 +10,8 @@ import stat
 from distutils.core import setup
 from setuptools import setup, Extension
 
-os.environ["CXX"] = "g++ -std=c++11 -stdlib=libc++"
-os.environ["CC"] =  "g++ -std=c++11 -stdlib=libc++"
+os.environ["CXX"] = "g++ -std=c++11"
+os.environ["CC"] =  "g++ -std=c++11"
 
 try:
     import py2exe
